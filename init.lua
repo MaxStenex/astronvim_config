@@ -1,4 +1,3 @@
-vim.opt.clipboard:append "unnamedplus"
 return {
   -- Configure AstroNvim updates
   updater = {
