@@ -7,6 +7,14 @@ return {
   {
     "sainnhe/gruvbox-material",
     as = "gruvbox-material",
-    config = function() require("kanagawa").setup {} end,
+    config = function() require("gruvbox-material").setup {} end,
+  },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin",
+    config = function() require("catppuccin").setup {} end,
+  },
+  {
+    "savq/melange-nvim",
   },
 }
