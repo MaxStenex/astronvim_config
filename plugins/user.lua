@@ -17,4 +17,8 @@ return {
   {
     "savq/melange-nvim",
   },
+  {
+    "mg979/vim-visual-multi",
+    event = "BufRead",
+  },
 }
