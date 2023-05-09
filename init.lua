@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "melange",
+  colorscheme = "gruvbox-material",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -85,5 +85,6 @@ return {
     vim.cmd "set timeoutlen=850"
     vim.api.nvim_set_keymap("n", "<CR>", "o<Esc>", { noremap = true })
     vim.o.termguicolors = true
+    vim.o.scrolloff = 0
   end,
 }

@@ -6,8 +6,6 @@ return {
   },
   {
     "sainnhe/gruvbox-material",
-    as = "gruvbox-material",
-    config = function() require("gruvbox-material").setup {} end,
   },
   {
     "catppuccin/nvim",
