@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "gruvbox-material",
+  colorscheme = "melange",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -86,5 +86,6 @@ return {
     vim.api.nvim_set_keymap("n", "<CR>", "o<Esc>", { noremap = true })
     vim.o.termguicolors = true
     vim.o.scrolloff = 0
+    vim.g.gitblame_delay = 1000
   end,
 }
